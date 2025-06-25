@@ -43,7 +43,7 @@ const Hero = () => {
         </h1>
 
         <p className="text-lg md:text-xl text-gray-300 mb-8 animate-slide-up delay-300">
-          Full-Stack Developer | Backend Engineer | Problem Solver
+          Full-Stack Developer | Backend Developer | Problem Solver
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12 animate-slide-up delay-500">
@@ -72,7 +72,7 @@ const Hero = () => {
             <Github size={20} />
           </a>
           <a
-            href="https://www.linkedin.com/in/deepika-allawada-73a479249/"
+            href="https://www.linkedin.com/in/deepika-reddy-03944a217/"
             target="_blank"
             rel="noopener noreferrer"
             className="p-2 rounded-full bg-gray-800 hover:bg-blue-600 transition-all duration-300 transform hover:scale-110"
