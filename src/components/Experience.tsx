@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Building, Calendar, MapPin } from 'lucide-react';
+import { Building, Calendar, MapPin, ExternalLink } from 'lucide-react';
 
 const Experience = () => {
   return (
@@ -22,6 +22,16 @@ const Experience = () => {
                   <div>
                     <h3 className="text-2xl font-bold text-white">Backend Developer Intern</h3>
                     <p className="text-purple-400 font-semibold text-lg">MH-Cognition</p>
+                    <a href="https://drive.google.com/file/d/17EenSRTxCFAnJjPuSLF9XKoGQBS67p4K/view?usp=sharing"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center gap-2 text-sm text-purple-300 hover:text-purple-400 transition-colors duration-300"
+                    >
+                      <ExternalLink size={16} />
+                      View Experiance Letter
+                    </a>
+
+
                   </div>
                 </div>
                 
