@@ -16,20 +16,27 @@ const Experience = () => {
             <div className="bg-gray-800/60 backdrop-blur-sm rounded-xl p-8 border border-purple-500/20 hover:border-purple-400/40 transition-all duration-300 transform hover:scale-[1.02]">
               <div className="flex items-start justify-between flex-wrap gap-4 mb-6">
                 <div className="flex items-center gap-4">
-                  <div className="w-16 h-16 bg-gradient-to-br from-purple-600 to-pink-600 rounded-xl flex items-center justify-center">
-                    <Building size={28} className="text-white" />
-                  </div>
-                  <div>
-                    <h3 className="text-2xl font-bold text-white">Backend Developer Intern</h3>
-                    <p className="text-purple-400 font-semibold text-lg">MH-Cognition</p>
-                    <a href="https://drive.google.com/file/d/17EenSRTxCFAnJjPuSLF9XKoGQBS67p4K/view?usp=sharing"
+                  <a href="https://drive.google.com/file/d/17EenSRTxCFAnJjPuSLF9XKoGQBS67p4K/view?usp=sharing"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="flex items-center gap-2 text-sm text-purple-300 hover:text-purple-400 transition-colors duration-300"
+                      className="w-16 h-16 bg-gradient-to-br from-purple-600 to-pink-600 rounded-xl flex items-center justify-center hover:scale-105 transition-transform duration-200"
                     >
-                      <ExternalLink size={16} />
-                      View Experiance Letter
+                      <Building size={28} className="text-white" />
                     </a>
+
+                  <div>
+                    <h3 className="text-2xl font-bold text-white">Backend Developer Intern</h3>
+                    <div className="flex items-center gap-3">
+                      <p className="text-purple-400 font-semibold text-lg">MH-Cognition</p>
+                      <a href="https://drive.google.com/file/d/17EenSRTxCFAnJjPuSLF9XKoGQBS67p4K/view?usp=sharing"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center gap-2 text-sm text-gray-100 hover:text-purple-400 transition-colors duration-300"
+                      >
+                        <ExternalLink size={16} />
+                        View Experiance Letter
+                      </a>
+                    </div>
 
 
                   </div>
